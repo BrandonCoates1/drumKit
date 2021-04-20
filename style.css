@@ -195,7 +195,4 @@ button:hover {
         padding-left: 0;
         padding-right: 0;
     }
-    .mainDrum1, .mainDrum2, .floorTomDrum1, .floorTomDrum2, .floorTomDrum3, .floorTomDrum4, .snareDrum1, .snareDrum2, .snareDrum3, .mediumTomDrum1, .mediumTomDrum2, .highTomDrum1, .highTomDrum2, .crashCymbal, .hiHat {
-        transform: scale(30%);
-    }
-} 
+}

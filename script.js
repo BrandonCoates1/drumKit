@@ -18,6 +18,10 @@ const highTomDrumButton = document.getElementById("container5").querySelectorAll
 const crashCymbalButton = document.querySelector(".crashCymbal");
 const hiHatButton = document.querySelector(".hiHat");
 
+if(window.innerHeight > window.innerWidth) {
+    alert("Please use Landscape!");
+}
+
 let mainDrumCounter = 0;
 
 for (let i = 0; i < mainDrumButton.length; i++) {
