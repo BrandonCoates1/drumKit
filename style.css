@@ -16,12 +16,14 @@ p {
 
 button {
     border: none;
-    background-color: rgba(0, 0, 0, 0);
+    /* background-color: rgba(0, 0, 0, 0); */
+    background-color: rgba(255, 0, 179, 0.205);
 }
 
 button:focus {
     outline: none;
-    background-color: rgba(0, 0, 0, 0);
+    /* background-color: rgba(0, 0, 0, 0); */
+    background-color: rgba(255, 0, 179, 0.205);
 }
 
 button:hover {
@@ -188,9 +190,12 @@ button:hover {
     top: 35vh;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .options {
         padding-left: 0;
         padding-right: 0;
+    }
+    .mainDrum1, .mainDrum2, .floorTomDrum1, .floorTomDrum2, .floorTomDrum3, .floorTomDrum4, .snareDrum1, .snareDrum2, .snareDrum3, .mediumTomDrum1, .mediumTomDrum2, .highTomDrum1, .highTomDrum2, .crashCymbal, .hiHat {
+        transform: scale(30%);
     }
 } 
